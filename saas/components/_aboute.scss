@@ -1,0 +1,30 @@
+
+.aboute-list {
+    display: flex;
+    flex-wrap: wrap;
+   gap: 30px;
+   padding-left: 0;
+   margin-top: 0;
+   margin-bottom: 0;
+   
+}
+
+.about-list__item {
+    display: block;
+    width: 370px;
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+}
+
+.about-list__item:hover .overlay {
+    background-color: rgba(33, 150, 243, 0.9);
+    transform: translateY(0);
+    
+}
+.aboute-list:nth-child(3n)
+{
+    margin-right: 0;
+}
